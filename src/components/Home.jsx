@@ -17,7 +17,7 @@ const MyHome = () => {
             </Col>
         </Row>
         <Row className="g-3">
-          <Col xs={12} md={6}>
+          <Col xs={6} md={6}>
             <Card className="bg-dark text-white border-0">
               <Card.Img
                 src="public\assets\images\1a.png" 
@@ -26,7 +26,7 @@ const MyHome = () => {
              
             </Card>
           </Col>
-          <Col xs={12} md={6}>
+          <Col xs={6} md={6}>
             <Card className="bg-dark text-white border-0">
               <Card.Img
                 src="public\assets\images\1b.png" 
@@ -82,7 +82,7 @@ const MyHome = () => {
 <section className="mt-5">
         <h4 className="mb-4">Altro da esplorare</h4>
         <Row className="g-3">
-          <Col xs={12} md={4}>
+          <Col xs={4} md={4}>
             <Button className="w-100 text-start glow-button rounded-pill">Esplora per genere</Button>
           </Col>
           <Col xs={12} md={4}>

@@ -75,7 +75,7 @@ import {
   
                 {/* Menu verticale */}
                 <Nav className="d-flex flex-column gap-4 w-100">
-                  <Nav.Link as={Link} to="/premium" className="glow-button w-50 text-center rounded-start-pill">
+                  <Nav.Link as={Link} to="/" className="glow-button w-50 text-center rounded-start-pill">
                     Home
                   </Nav.Link>
                   <Nav.Link as={Link} to="/novità" className="glow-button w-50 text-center rounded-start-pill">
