@@ -81,8 +81,8 @@ import {
                   <Nav.Link as={Link} to="/novità" className="glow-button w-50 text-center rounded-start-pill">
                     Novità
                   </Nav.Link>
-                  <Nav.Link as={Link} to="/account" className="glow-button w-50 text-center rounded-start-pill">
-                    Radio
+                  <Nav.Link as={Link} to="/favourites" className="glow-button w-50 text-center rounded-start-pill">
+                    Brani preferiti
                   </Nav.Link>
                 </Nav>
               </Col>
