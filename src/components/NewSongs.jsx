@@ -10,7 +10,7 @@ const NewSongs = () => {
   const dispatch = useDispatch();  // Usa dispatch per inviare l'azione
 
   const fetchData = async () => {
-    const artists = ['MarcoMengoni', 'VascoRossi', 'Madonna', 'ArianaGrande'];
+    const artists = ['MarcoMengoni', 'Anitta', 'AnaMena', 'Annalisa'];
 
     const fetchPromises = artists.map(artist => {
       return fetch(`https://striveschool-api.herokuapp.com/api/deezer/search?q=${artist}`)
