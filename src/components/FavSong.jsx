@@ -7,7 +7,8 @@ import { Link } from 'react-router-dom';
 
 const Favourites = () => {
   // Ottieni i brani preferiti dallo store
-  const favourites = useSelector(state => state.fav.list);  // Assumendo che state.fav.list contenga i preferiti
+  const favourites = useSelector(state => state.fav.list);
+  // Assumendo che state.fav.list contenga i preferiti
   const dispatch = useDispatch();
 
   const handleRemove = (song) => {

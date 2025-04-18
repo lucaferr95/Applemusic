@@ -1,10 +1,13 @@
-import { configureStore } from "@reduxjs/toolkit"; // Usa configureStore invece di createStore
-import favReducer from "../reducers"; // Il tuo reducer
+import { configureStore } from "@reduxjs/toolkit";
+import { combineReducers } from "redux";
+import favReducer from "../reducers/favReducer";
+
+const rootReducer = combineReducers({
+  fav: favReducer, // La chiave 'fav' deve corrispondere con quella che usi nel componente Favourites
+});
 
 const store = configureStore({
-  reducer: {
-    favourites: favReducer, // Qui passi il tuo reducer
-  },
+  reducer: rootReducer,
 });
 
 export default store;
